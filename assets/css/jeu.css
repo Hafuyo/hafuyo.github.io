@@ -1,0 +1,21 @@
+/* Styles spécifiques à la page du jeu phare */
+.visuel-placeholder img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-top: 1rem;
+}
+
+.info-list {
+    list-style: none;
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.info-list li {
+    margin-bottom: 0.5rem;
+}
